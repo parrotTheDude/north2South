@@ -1,0 +1,140 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.red {
+	color: #D12D3A;
+	padding-top: 20px;
+}
+
+.nav_bar {
+	height: 70px;
+	background-color: #383636;
+	padding-top: 15px;
+}
+
+.nav_bar a {
+	color: #fff;
+}
+
+.nav_bar a:hover {
+	color: #ff0000;
+}
+
+.info {
+	background-color: #fff;
+}
+
+.info_bg {
+	background-color: #CCCCCC;
+}
+
+.imgz {
+  padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.comp {
+	margin-top: 20px;
+	background-color: #333333;
+	color: #fff;
+}
+
+.foot_bar {
+	background-color: #383636;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	color: #fff;
+}
+
+.foot_links {
+	color: #fff;
+}
+
+.foot_links:hover {
+	color: #ff0000;
+}
+
+.textareaz {
+	height: 300px;
+}
+
+.contact_box {
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+}
+
+
+/* Nav Crap */
+
+#nav-trigger {
+  display: none;
+  text-align: center; }
+  #nav-trigger span {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase; }
+    #nav-trigger span:after {
+      display: inline-block;
+      margin-left: 10px;
+      width: 20px;
+      height: 10px;
+      content: "";
+      border-left: solid 10px transparent;
+      border-top: solid 10px #fff;
+      border-right: solid 10px transparent; }
+    #nav-trigger span:hover {
+      background-color: #ff6501; }
+    #nav-trigger span.open:after {
+      border-left: solid 10px transparent;
+      border-top: none;
+      border-bottom: solid 10px #fff;
+      border-right: solid 10px transparent; }
+
+
+nav#nav-mobile {
+  position: relative;
+  display: inline; 
+  z-index: 99; }
+  nav#nav-mobile ul {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #000; }
+  nav#nav-mobile li {
+    display: block;
+    padding: 5px 0;
+    margin: 0 5px;
+    border-bottom: solid 1px #93A299; }
+    nav#nav-mobile li:last-child {
+      border-bottom: none; }
+  nav#nav-mobile a {
+    display: block;
+    color: white;
+    padding: 20px 30px; }
+    nav#nav-mobile a:hover {
+      background-color: #ff6501;
+      color: #fff; }
+
+@media all and (max-width: 900px) {
+  #nav-trigger {
+    display: block; }
+
+  nav#nav-main {
+    display: none; }
+
+  nav#nav-mobile {
+    display: block; }
+}

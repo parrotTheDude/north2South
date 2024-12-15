@@ -1,2 +1,2 @@
 <h1>North2South Training Website</h1>
-<p>A simple website created for a local woamn who needed somewhere to advertise her consultancy agency</p>
+<p>A simple website created back in 2015. It was used for a local consultancy agency</p>
